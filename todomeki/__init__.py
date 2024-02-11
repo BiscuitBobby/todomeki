@@ -1,7 +1,7 @@
-from todomeki.data.retrieve.close_events import get_events_within_month
-from todomeki.data.retrieve.search import SearchAgent
-from todomeki.data.retrieve.track import EventTracker
-from todomeki.secrets.keys import ConfigSecrets
+from .data.retrieve.close_events import get_events_within_month
+from .data.retrieve.search import SearchAgent
+from .data.retrieve.track import EventTracker
+from .secrets.keys import ConfigSecrets
 class Watcher:
     def __init__(self, api_key, cx, gl):
         self.config = ConfigSecrets(api_key, cx, gl)
