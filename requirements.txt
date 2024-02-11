@@ -1,2 +1,7 @@
 typing-extensions
 selenium-screenshot
+google-generativeai
+setuptools~=66.1.1
+selenium~=4.15.2
+langchain~=0.0.354
+requests~=2.31.0
